@@ -1,0 +1,18 @@
+# Secrets — contient le mot de passe Elasticsearch et la clé API
+elastic-start-local/
+.env
+*.key
+
+# Données volumineuses, retéléchargeables depuis bano.openstreetmap.fr
+bano-*.csv
+personnes-big.csv
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Système
+.DS_Store
+Thumbs.db
